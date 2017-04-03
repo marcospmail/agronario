@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_play_arrow.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_action_play_arrow.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_error.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_action_error.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_expand.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_action_expand.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_play.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_action_play.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_search.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_drawer.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_school.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-mdpi\\ic_action_school.png"
+    }
+]

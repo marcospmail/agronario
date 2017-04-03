@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Android\\.android\\build-cache\\16f212860637688ca24888d37c1eeb9f7b373116\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Android\\.android\\build-cache\\16f212860637688ca24888d37c1eeb9f7b373116\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Android\\.android\\build-cache\\16f212860637688ca24888d37c1eeb9f7b373116\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Android\\.android\\build-cache\\16f212860637688ca24888d37c1eeb9f7b373116\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

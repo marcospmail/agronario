@@ -32,7 +32,7 @@
             android:textColor="#ffffff"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="5dp"
-            android:text="marcops.mail@gmail.com"
+            android:text="marcosp.mail@gmail.com"
             android:textSize="14sp"
             android:textStyle="normal"
             />

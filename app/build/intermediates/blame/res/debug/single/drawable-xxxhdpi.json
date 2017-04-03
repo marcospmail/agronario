@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_action_play_arrow.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_play_arrow.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_action_school.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_school.png"
+    },
+    {
+        "merged": "C:\\workspace_studio\\Agronario\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_action_error.png",
+        "source": "C:\\workspace_studio\\Agronario\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_error.png"
+    }
+]

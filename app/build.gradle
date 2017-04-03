@@ -1,15 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion '22.0.1'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
     defaultConfig {
         applicationId 'hol.agronario.android'
-        minSdkVersion 10
-        targetSdkVersion 22
+        minSdkVersion 14
+        targetSdkVersion 24
         versionCode 1
         versionName '1.0'
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -23,16 +25,28 @@ android {
         // use this line to check all rules except those listed
         abortOnError false
     }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion '25.3.1'
+                }
+            }
+        }
+    }
+
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'se.emilsjolander:stickylistheaders:2.7.0'
     compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.android.support:recyclerview-v7:+'
-    compile 'com.android.support:cardview-v7:21.0.+'
-    compile 'com.afollestad:material-dialogs:0.7.6.0'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.afollestad.material-dialogs:core:0.9.4.2'
     compile 'de.hdodenhof:circleimageview:1.2.2'
 }
