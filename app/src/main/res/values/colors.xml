@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="light_light_green">#D7FFF1</color>
+    <color name="light_green">#69E06D</color>
+    <color name="regular_green">#9AE09D</color>
+    <color name="dark_green">#285943</color>
+
+    <color name="light_gray">#B0B2A6</color>
+
+</resources>

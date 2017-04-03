@@ -1,0 +1,58 @@
+package hol.agronario.android.adapters;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.TextView;
+
+import java.util.List;
+
+import hol.agronario.android.R;
+import hol.agronario.android.ob.ClasseGramatical;
+
+/**
+ * Created by MarcosPaulo on 5/8/15.
+ */
+// Custom Adapter for Spinner
+public class CustomSpinnerAdapter extends ArrayAdapter<ClasseGramatical> {
+
+    private Context context1;
+    private List<ClasseGramatical> data;
+    public Resources res;
+    LayoutInflater inflater;
+
+    public CustomSpinnerAdapter(Context context, List<ClasseGramatical> objects) {
+        super(context, R.layout.spinner_row, objects);
+
+        context1 = context;
+        data = objects;
+
+        inflater = (LayoutInflater) context1
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+    }
+
+    @Override
+    public View getDropDownView(int position, View convertView, ViewGroup parent) {
+        return getCustomView(position, convertView, parent);
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        return getCustomView(position, convertView, parent);
+    }
+
+    // This funtion called for each row ( Called data.size() times )
+    public View getCustomView(int position, View convertView, ViewGroup parent) {
+
+        View row = inflater.inflate(R.layout.spinner_row, parent, false);
+
+        TextView txtClasseGramatical = (TextView) row.findViewById(R.id.classeGramatical);
+        txtClasseGramatical.setText(data.get(position).toString());
+
+        return row;
+    }
+}

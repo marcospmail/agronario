@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="language_filter">
+        <item>Português</item>
+        <item>Inglês</item>
+    </array>
+
+    <array name="navigation_drawer_items">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+    </array>
+
+
+</resources>
